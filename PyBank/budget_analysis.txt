@@ -1,2 +1,5 @@
+total Months: $ 86
 Total: $ 38382578
-Average Change: $ -426534.65882352943
+Average Change: $ -2315.1176470588234
+
+greatest increase: $ 1926159

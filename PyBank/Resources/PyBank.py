@@ -46,6 +46,8 @@ with open(file_path) as file:
         month_ct += 1
         net_profit = net_profit+ int(row[1])
         row_ct += 1
+        prev_profit = curr_profit
+
 average_ch=sum(newlist)/len(newlist)
 max(newlist)
 min(newlist)
@@ -59,5 +61,8 @@ print(max(newlist))
 print(min(newlist))
 
 with open(text_file, "w") as txt_file:
+    txt_file.write(f'total Months: $ {month_ct}')
     txt_file.write(f'Total: $ {net_profit}\n' ) 
     txt_file.write(f'Average Change: $ {average_ch}\n' )
+    txt_file.write(f'greatest increase in Profit: $ {max(newlist)}')
+    txt_file.write(f'greatest decrease in profit: ${min(newlist)}')

@@ -25,21 +25,9 @@ with open(file_path) as file:
         candidates_votes[row[2]]= candidates_votes[row[2]]+1
 
     for x in candidates_votes:
-        percent_votes[x]= round((candidates_votes[x]/votes_cast)*100,2)             
+        percent_votes[x]= round((candidates_votes[x]/votes_cast)*100,2)    
 
-
-
-
-# for x in candidate_votes:
-        # percent_dict[x] = round((candidate_votes[x] / total_votes) * 100, 2)
-# The winner of the election based on popular vote.
-        # votes = candidate_votes.get(x)
-        # if votes > max_votes:
-            # max_votes = votes
-            # winner = x
-        # output = f"{x} : {percent_dict[x]}% , {votes} \n "
-        # print(output)
-    # print("Winner: " + (winner))
+             
 
 
 
@@ -48,4 +36,3 @@ with open(file_path) as file:
 print (votes_cast)
 print (candidates_nm)
 print (candidates_votes)
-print (percent_votes)
