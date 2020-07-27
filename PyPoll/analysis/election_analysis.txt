@@ -1,1 +1,3 @@
 total votes: $ 3521001
+name of the candidates: $ ['Khan', 'Correy', 'Li', "O'Tooley"]
+candidates votes: $ {'Khan': 2218231, 'Correy': 704200, 'Li': 492940, "O'Tooley": 105630}
